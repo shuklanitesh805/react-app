@@ -1,5 +1,9 @@
 function Message(){
-    return <h1>Hello Dev!!</h1>
+    const name = "Developer's"
+  if(name){
+    return <h1>Hello {name}!!</h1>
+  }
+  return <h1>Hello World!!</h1>
 }
 
 export default Message;
