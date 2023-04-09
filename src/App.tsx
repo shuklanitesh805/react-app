@@ -4,7 +4,10 @@ import ListGroup from "./components/ListGroup";
 function App(){
     //return <div><Message /></div>;
     let items = ['New York', 'Los Angeles', 'Nashvillie', 'Captown'];
-    return <div><ListGroup items={items} heading='List'/></div>
+    const handleSelectItem = (item:string) =>{
+        console.log(item);
+    }
+    return <div><ListGroup items={items} heading='Cities' onSelectItem={handleSelectItem}/></div>
     
 }
 
