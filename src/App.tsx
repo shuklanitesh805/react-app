@@ -1,6 +1,7 @@
 //import Message from "./Message";
 import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
+import Table from "./components/Table";
 
 function App(){
     //return <div><Message /></div>;
@@ -11,7 +12,8 @@ function App(){
     return <><div><ListGroup items={items} heading='Cities' onSelectItem={handleSelectItem}/> 
     <Alert >
         <span>Hello Workers!!</span>
-    </Alert></div></>
+    </Alert></div>
+    <Table></Table></>
     
 }
 
