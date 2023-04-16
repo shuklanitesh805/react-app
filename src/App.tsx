@@ -9,11 +9,11 @@ function App(){
     const handleSelectItem = (item:string) =>{
         console.log(item);
     }
-    return <><div><ListGroup items={items} heading='Cities' onSelectItem={handleSelectItem}/> 
+    return <><div><ListGroup items={items} heading='Cities' onSelectItem={handleSelectItem}/> </div>
     <Alert >
         <span>Hello Workers!!</span>
-    </Alert></div>
-    <Table></Table></>
+    </Alert>
+    <Table heading="Table Heading" rowNumber={84378}></Table></>
     
 }
 
