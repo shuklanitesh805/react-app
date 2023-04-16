@@ -1,9 +1,11 @@
+import {getData} from "./Service";
 interface PropsTable{
     heading: string;
     rowNumber: number;
 }
 
 function Table( {heading}: PropsTable){
+//const data = getData();
  return <table className="table">
  <thead>
    <tr>
@@ -28,7 +30,7 @@ function Table( {heading}: PropsTable){
    </tr>
    <tr>
      <th scope="row">3</th>
-     <td colspan="2">Larry the Bird</td>
+     <td colSpan={2}>Larry the Bird</td>
      <td>@twitter</td>
    </tr>
  </tbody>

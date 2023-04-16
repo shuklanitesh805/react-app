@@ -1,5 +1,6 @@
 //import Message from "./Message";
 import Alert from "./components/Alert";
+import ApiData from "./components/ApiData";
 import ListGroup from "./components/ListGroup";
 import Table from "./components/Table";
 
@@ -13,7 +14,7 @@ function App(){
     <Alert >
         <span>Hello Workers!!</span>
     </Alert>
-    <Table heading="Table Heading" rowNumber={84378}></Table></>
+    <Table heading="Table Heading" rowNumber={84378}></Table>    </>
     
 }
 
